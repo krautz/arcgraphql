@@ -13,6 +13,10 @@
     "test:tsc": "tsc",
     "test:eslint": "eslint src/*.ts src/node_modules/**/*.ts src/node_modules/self/**/*.ts src/node_modules/self/resolvers/**/*.ts --no-ignore"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:krautz/arcgraphql.git"
+  },
   "keywords": [
     "graphql",
     "arc",
