@@ -4,6 +4,10 @@
   "description": "GraphQL layer for Another Reddit Client",
   "main": "index.ts",
   "scripts": {
+    "build": "npm-run-all build:*",
+    "build:clean": "rm -rf build/",
+    "build:babel": "babel --extensions '.ts' -d build src",
+    "build:schema": "cp src/schema.graphql build/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
