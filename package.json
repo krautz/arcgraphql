@@ -12,5 +12,8 @@
     "reddit"
   ],
   "author": "Caio Krauthamer <caio_k@hotmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.16.0"
+  }
 }
