@@ -1,0 +1,16 @@
+{
+  "name": "arcgraphql",
+  "version": "0.1.0",
+  "description": "GraphQL layer for Another Reddit Client",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "graphql",
+    "arc",
+    "reddit"
+  ],
+  "author": "Caio Krauthamer <caio_k@hotmail.com>",
+  "license": "ISC"
+}
