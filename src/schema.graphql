@@ -1,0 +1,11 @@
+#
+# TYPES
+#
+type Post {
+    content: String!
+    id: String!
+    name: String!
+    subReddit: String!
+    title: String!
+    type: String!
+}
