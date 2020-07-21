@@ -1,4 +1,12 @@
 #
+# QUERIES
+#
+type Query {
+    posts(sort: String!, limit: Int): [Post!]
+}
+
+
+#
 # TYPES
 #
 type Post {
