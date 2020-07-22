@@ -1,0 +1,12 @@
+# Docker Ignore
+
+# files
+.eslintrc.json
+.git
+.gitignore
+README.md
+tsconfig.json
+
+# folders
+node_modules/
+build/
